@@ -25,10 +25,10 @@ rmall <directory_to_remove> [options]
 
 ## Options
 
-<directory_to_delete>: Name of the directory you want to delete. This argument is required.
--b, --base-path <path>: Base path from which to start the search. Defaults to the current directory.
--t, --threads <number>: Number of threads to use. Defaults to the number of available cores.
--v, --verbose: Shows detailed messages of the operations performed.
+- <directory_to_delete>: Name of the directory you want to delete. This argument is required.
+- -b, --base-path <path>: Base path from which to start the search. Defaults to the current directory.
+- -t, --threads <number>: Number of threads to use. Defaults to the number of available cores.
+- -v, --verbose: Shows detailed messages of the operations performed.
 
 ## Examples
 
