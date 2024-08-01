@@ -1,5 +1,7 @@
 # rmall
 
+`rmall` is a simple script for deleting multiple ocurrences of a directory within a base path. It is written in Rust and uses multiple threads to improve performance.
+
 This Rust script recursively deletes specific directories within a base path. It uses multiple threads to improve efficiency on multi-core systems.
 
 ## Build
@@ -18,17 +20,17 @@ with that done you can find the binary in the target/release directory. You can 
 # Show help
 rmall --help
 
-# run the script
+# Run the script
 rmall <directory_to_remove> [options]
 
 ```
 
 ## Options
 
-- <directory_to_delete>: Name of the directory you want to delete. This argument is required.
-- -b, --base-path <path>: Base path from which to start the search. Defaults to the current directory.
-- -t, --threads <number>: Number of threads to use. Defaults to the number of available cores.
-- -v, --verbose: Shows detailed messages of the operations performed.
+- **<directory_to_delete>:** Name of the directory you want to delete. This argument is required.
+- **-b, --base-path \<path>:** Base path from which to start the search. Defaults to the current directory.
+- **-t, --threads \<number>:** Number of threads to use. Defaults to the number of available cores.
+- **-v, --verbose:** Shows detailed messages of the operations performed.
 
 ## Examples
 
